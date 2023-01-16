@@ -1,0 +1,92 @@
+:root {
+	/*Her har jeg hentet hex-kodene fra skissen med https://imagecolorpicker.com/ */
+	--cyan: #25dfe6;
+	--gray: #707070;
+	--lightgray: #f5f5f5;
+	--border: #d9d9d9;
+}
+html {
+	font-size: calc(1em + 1vw);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+}
+/*--------------------------------HEADER----------------------------------*/
+header {
+	width: 70%;
+	margin: auto;
+}
+
+header h1 {
+	text-transform: uppercase;
+	padding: 2rem 1rem;
+	border: 1px solid var(--border);
+	font-size: 1rem;
+}
+/*--------------------------------NAV----------------------------------*/
+nav {
+	width: 70%;
+	margin: auto;
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 0;
+	border-bottom: 5px solid var(--cyan);
+	margin: 0;
+}
+nav ul li {
+	width: 18%;
+	height: auto;
+	border: 1px solid var(--border);
+	border-bottom: none;
+	text-align: center;
+	padding: 0.5rem 0;
+	background-color: var(--lightgray);
+}
+nav ul li a {
+	color: var(--gray);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	word-break: break-all;
+}
+
+.activetab {
+	background-color: var(--cyan);
+	border-color: var(--cyan);
+}
+.activetab a {
+	color: white;
+}
+
+/*--------------------------------MAIN----------------------------------*/
+
+main {
+	display: flex;
+	width: 70%;
+	margin: auto;
+	border: 1px solid var(--border);
+	border-top: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	padding: 0.5rem 1rem;
+}
+p {
+	font-size: 0.7rem;
+	padding: 0 1rem;
+}
+
+main article ul {
+	padding: 0 1.8rem;
+}
+main article ul li a {
+	font-size: 0.7rem;
+	color: var(--cyan);
+}
