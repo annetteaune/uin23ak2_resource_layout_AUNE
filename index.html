@@ -13,43 +13,33 @@
 		</header>
 		<nav>
 			<ul>
-				<li class="activetab">
-					<a href="#" title="HTML">HTML</a>
+				<li id="htmltab">
+					<a href="#" title="HTML" onclick="printHTML()">HTML</a>
 				</li>
-				<li>
-					<a href="#" title="CSS">CSS</a>
+				<li id="csstab">
+					<a href="#" title="CSS" onclick="printCSS()">CSS</a>
 				</li>
-				<li>
-					<a href="#" title="Javascript">JavaScript</a>
+				<li id="jstab">
+					<a href="#" title="Javascript" onclick="printJS()">JavaScript</a>
 				</li>
-				<li>
-					<a href="#" title="React">React</a>
+				<li id="reacttab">
+					<a href="#" title="React" onclick="printReact()">React</a>
 				</li>
-				<li>
-					<a href="#" title="Sanity and headless CMS">Sanity</a>
+				<li id="sanitytab">
+					<a href="#" title="Sanity and headless CMS" onclick="printSanity()">Sanity</a>
 					<!--Velger å utelate resten av tittelen for å unngå digre fanebokser, 
                         legger den heller inn som title-attributt, og gjør det samme for resterende nav-linker-->
 				</li>
 			</ul>
 		</nav>
 		<main>
-			<article>
-				<h2>temp</h2>
-				<p>ipsum</p>
-				<ul>
-					<li>
-						<a href="#">lorem</a>
-					</li>
-                    <li>
-						<a href="#">lorem</a>
-					</li>
-                    <li>
-						<a href="#">lorem</a>
-					</li>
-				</ul>
+			<article id="print-area">
+				
 			</article>
 		</main>
 
-		<script src="ressurser.js"></script>
+		<script src="ressurser.js">
+			//Legger javascriptet jeg skriver i bunnen av det eksterne dokumentet. :)
+		</script>
 	</body>
 </html>

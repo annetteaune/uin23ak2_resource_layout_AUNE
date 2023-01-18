@@ -47,6 +47,9 @@ nav ul li {
 	padding: 0.5rem 0;
 	background-color: var(--lightgray);
 }
+nav ul li a:hover {
+	text-decoration: underline;
+}
 nav ul li a {
 	color: var(--gray);
 	text-decoration: none;
@@ -81,6 +84,7 @@ h2 {
 p {
 	font-size: 0.7rem;
 	padding: 0 1rem;
+	max-width: 70%;
 }
 
 main article ul {
@@ -89,4 +93,9 @@ main article ul {
 main article ul li a {
 	font-size: 0.7rem;
 	color: var(--cyan);
+}
+
+main article ul li a:hover {
+	color: var(--gray);
+	font-weight: bolder;
 }
